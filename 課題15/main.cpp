@@ -10,6 +10,5 @@ int main()
 	a.Input();
 	a.Minus();
 	a.Disp();
-	//使い終わったインスタンスを削除
-	delete a;
+	
 }
