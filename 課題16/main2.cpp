@@ -1,7 +1,8 @@
 #include "Square.h"
 #include "Triangle.h"
 int main()
-{	Square s;
+{
+	Square s;
 	Triangle t;
 	//éläpå`
 	s.SetTeihen(10.0f);
@@ -13,6 +14,4 @@ int main()
 	t.SetTakasa(5.5f);
 	t.Calc();
 	t.Disp();
-
-	return 0;
 }

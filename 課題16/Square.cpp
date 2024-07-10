@@ -1,4 +1,3 @@
-
 #include"Square.h"
 
 void Square :: Calc (){
