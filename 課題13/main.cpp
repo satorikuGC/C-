@@ -3,10 +3,11 @@
 void SetX(float a, float b);
 void SetY(float a, float b);
 //グローバル変数
-Calclation x, y;
+
 //メイン関数
 int main()
 {
+	Calclation x, y;
 	//インスタンスＸの処理
 	SetX(5.0, 10.0);
 	x.Disp();
@@ -25,4 +26,4 @@ void SetY(float a, float b)
 {
 	y.SetA(a);
 	y.SetB(b);
-}
+}
