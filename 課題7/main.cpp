@@ -6,10 +6,10 @@ int main()
 {
 	std::cout << "プログラム開始\n";
 	Function();
-	std::cout << "";
+	std::cout << "プログラム終了\n";
 }
 
-void Fubction() {
+void Function() {
 	std::cout << "関数が呼び出されました\n";
 		Sample instSample;
 
